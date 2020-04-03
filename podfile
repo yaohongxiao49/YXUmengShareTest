@@ -1,0 +1,20 @@
+platform :ios, "9.0"
+def pods
+    pod 'AFNetworking'                       #网络请求
+    pod 'UMCCommon'                          #基础库
+    pod 'UMCSecurityPlugins'                 #安全组件、依赖库
+    pod 'UMCShare/UI'                        #分享UI
+    pod 'UMCAnalytics'                       #统计SDK           
+    pod 'UMCPush'                            #Push
+    pod 'UMCShare/Social/ReducedWeChat'      #微信精简版
+    pod 'UMCShare/Social/ReducedQQ'          #QQ精简版
+    pod 'UMCShare/Social/ReducedSina'        #新浪微博精简版
+    pod 'UMCShare/Social/AlipayShare'        #支付宝
+    pod 'UMCShare/Social/DingDing'           #钉钉
+    pod 'UMCShare/Social/Email'              #邮箱
+    pod 'UMCShare/Social/SMS'                #信息
+end
+
+target 'YXSharedByUmengTest' do
+    pods
+end
