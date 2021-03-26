@@ -10,6 +10,7 @@
 
 @implementation YXPublicShareManager
 
+#pragma mark - 单例
 + (YXPublicShareManager *)instanceManager {
     
     static YXPublicShareManager *yxPublicShareManager = nil;

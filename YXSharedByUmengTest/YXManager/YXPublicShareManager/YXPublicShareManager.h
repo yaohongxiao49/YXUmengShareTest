@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YXPublicShareManager : NSObject
 
+/** 单例 */
 + (YXPublicShareManager *)instanceManager;
 
 /**
