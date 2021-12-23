@@ -10,24 +10,6 @@
 #import "YXHomeListCell.h"
 #import "YXHomeListSecHeaderView.h"
 
-/** 分享类型 */
-typedef NS_ENUM(NSUInteger, YXShareContentType) {
-    /** 默认 */
-    YXShareContentTypeDefault,
-    /** 文字 */
-    YXShareContentTypeWord,
-    /** 图片 */
-    YXShareContentTypeImg,
-    /** 链接 */
-    YXShareContentTypeWeb,
-    /** 音乐 */
-    YXShareContentTypeMusic,
-    /** 视频 */
-    YXShareContentTypeVideo,
-    /** 小程序 */
-    YXShareContentTypeMiniProgram,
-};
-
 @interface YXHomeListVC () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;

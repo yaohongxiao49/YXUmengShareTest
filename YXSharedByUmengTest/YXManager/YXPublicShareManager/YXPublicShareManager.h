@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UMCommon/UMCommon.h>
-#import <UMShare/UMShare.h>
-#import <UShareUI/UShareUI.h>
+#import "YXPublicShareManagerModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

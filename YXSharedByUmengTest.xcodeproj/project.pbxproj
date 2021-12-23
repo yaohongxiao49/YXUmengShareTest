@@ -27,6 +27,7 @@
 		847AC0492436E9DD00FD98A2 /* YXHomeListSecHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847AC0482436E9DC00FD98A2 /* YXHomeListSecHeaderView.xib */; };
 		847AC04D243702FA00FD98A2 /* YXPublicToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AC04C243702FA00FD98A2 /* YXPublicToolManager.m */; };
 		A675C43CEFB3A7D951298E24 /* libPods-YXSharedByUmengTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C347E6CF0C3D844DD2D0452 /* libPods-YXSharedByUmengTest.a */; };
+		B1A8F69D2774238C007D529E /* YXPublicShareManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A8F69C2774238C007D529E /* YXPublicShareManagerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		847AC04B243702FA00FD98A2 /* YXPublicToolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPublicToolManager.h; sourceTree = "<group>"; };
 		847AC04C243702FA00FD98A2 /* YXPublicToolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPublicToolManager.m; sourceTree = "<group>"; };
 		9C347E6CF0C3D844DD2D0452 /* libPods-YXSharedByUmengTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXSharedByUmengTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A8F69B2774238C007D529E /* YXPublicShareManagerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPublicShareManagerModel.h; sourceTree = "<group>"; };
+		B1A8F69C2774238C007D529E /* YXPublicShareManagerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPublicShareManagerModel.m; sourceTree = "<group>"; };
 		C6C8C41DB3F276E7754C926B /* Pods-YXSharedByUmengTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSharedByUmengTest.release.xcconfig"; path = "Target Support Files/Pods-YXSharedByUmengTest/Pods-YXSharedByUmengTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,6 +254,8 @@
 			children = (
 				840563BC2435DD6F006FEC68 /* YXPublicShareManager.h */,
 				840563BD2435DD6F006FEC68 /* YXPublicShareManager.m */,
+				B1A8F69B2774238C007D529E /* YXPublicShareManagerModel.h */,
+				B1A8F69C2774238C007D529E /* YXPublicShareManagerModel.m */,
 			);
 			path = YXPublicShareManager;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A8F69D2774238C007D529E /* YXPublicShareManagerModel.m in Sources */,
 				840563CA2435F00B006FEC68 /* NSDictionary+YXDictionary.m in Sources */,
 				847AC04D243702FA00FD98A2 /* YXPublicToolManager.m in Sources */,
 				840563AF2435D638006FEC68 /* YXHomeListVC.m in Sources */,
