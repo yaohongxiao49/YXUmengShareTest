@@ -225,4 +225,32 @@
     }];
 }
 
+#pragma mark - 授权并获取用户信息
+- (void)getUserInfoForPlatform:(UMSocialPlatformType)platformType baseVC:(id)baseVC finished:(void(^)(BOOL boolSuccess, UMSocialUserInfoResponse *result))finished {
+    
+    [[UMSocialManager defaultManager] getUserInfoWithPlatform:platformType currentViewController:baseVC completion:^(id result, NSError *error) {
+        
+        if (error) {
+            finished(NO, nil);
+        }
+        else {
+            UMSocialUserInfoResponse *resp = result;
+            //第三方登录数据(为空表示平台未提供)
+            //授权数据
+            NSLog(@"uid: %@", resp.uid);
+            NSLog(@"openid: %@", resp.openid);
+            NSLog(@"accessToken: %@", resp.accessToken);
+            NSLog(@"refreshToken: %@", resp.refreshToken);
+            NSLog(@"expiration: %@", resp.expiration);
+            //用户数据
+            NSLog(@"name: %@", resp.name);
+            NSLog(@"iconurl: %@", resp.iconurl);
+            NSLog(@"gender: %@", resp.unionGender);
+            //第三方平台SDK原始数据
+            NSLog(@"originalResponse: %@", resp.originalResponse);
+            finished(YES, resp);
+        }
+    }];
+}
+
 @end

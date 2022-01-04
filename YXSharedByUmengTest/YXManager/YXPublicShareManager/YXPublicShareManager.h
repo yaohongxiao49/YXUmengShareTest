@@ -151,6 +151,15 @@ NS_ASSUME_NONNULL_BEGIN
                     successBlock:(void(^)(id success))successBlock
                        failBlock:(void(^)(id fail))failBlock;
 
+/**
+ * 授权并获取用户信息
+ * @param platformType 授权平台
+ * @param baseVC 基础控制器
+ */
+- (void)getUserInfoForPlatform:(UMSocialPlatformType)platformType
+                        baseVC:(id)baseVC
+                      finished:(void(^)(BOOL boolSuccess, UMSocialUserInfoResponse *result))finished;
+
 @end
 
 NS_ASSUME_NONNULL_END
