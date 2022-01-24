@@ -37,6 +37,7 @@
     
     [UMConfigure initWithAppkey:umengKey channel:@"AppStore"];
     if (wechatDic) {
+        [UMSocialGlobal shareInstance].universalLinkDic = @{@(UMSocialPlatformType_WechatSession) : @"https://umplus-sdk-download.oss-cn-shanghai.aliyuncs.com/"};
         [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:[wechatDic objectForKey:@"appKey"] appSecret:[wechatDic objectForKey:@"appSecret"] redirectURL:[wechatDic objectForKey:@"redirectURL"]];
     }
     if (qqDic) {

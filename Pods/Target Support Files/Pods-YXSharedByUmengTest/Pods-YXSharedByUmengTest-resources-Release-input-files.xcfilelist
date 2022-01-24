@@ -1,2 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-YXSharedByUmengTest/Pods-YXSharedByUmengTest-resources.sh
-${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle
+${PODS_ROOT}/UMPush/UMPush/UMPushResource.bundle
+${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle
+${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle
+${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle
+${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle
+${PODS_ROOT}/UMShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle

@@ -97,10 +97,20 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
+  install_resource "${PODS_ROOT}/UMPush/UMPush/UMPushResource.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
+  install_resource "${PODS_ROOT}/UMPush/UMPush/UMPushResource.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle"
+  install_resource "${PODS_ROOT}/UMShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

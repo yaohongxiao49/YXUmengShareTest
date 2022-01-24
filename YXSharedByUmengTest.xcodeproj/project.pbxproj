@@ -685,7 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2HSQ24Z864;
+				DEVELOPMENT_TEAM = 52ZG64Q839;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YXSharedByUmengTest/YXRootpch.h";
 				INFOPLIST_FILE = YXSharedByUmengTest/Info.plist;
@@ -706,7 +706,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2HSQ24Z864;
+				DEVELOPMENT_TEAM = 52ZG64Q839;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YXSharedByUmengTest/YXRootpch.h";
 				INFOPLIST_FILE = YXSharedByUmengTest/Info.plist;

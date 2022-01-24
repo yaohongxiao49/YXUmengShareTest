@@ -1,18 +1,37 @@
 platform :ios, "9.0"
 def pods
-    pod 'AFNetworking'                       #网络请求
-    pod 'UMCCommon'                          #基础库
-    pod 'UMCSecurityPlugins'                 #安全组件、依赖库
-    pod 'UMCShare/UI'                        #分享UI
-    pod 'UMCAnalytics'                       #统计SDK           
-    pod 'UMCPush'                            #Push
-    pod 'UMCShare/Social/ReducedWeChat'      #微信精简版
-    pod 'UMCShare/Social/ReducedQQ'          #QQ精简版
-    pod 'UMCShare/Social/ReducedSina'        #新浪微博精简版
-    pod 'UMCShare/Social/AlipayShare'        #支付宝
-    pod 'UMCShare/Social/DingDing'           #钉钉
-    pod 'UMCShare/Social/Email'              #邮箱
-    pod 'UMCShare/Social/SMS'                #信息
+    pod 'AFNetworking'                   #网络请求
+    pod 'UMCommon'                       #友盟分享
+    pod 'UMDevice'
+    pod 'UMPush'                         #友盟推送
+    pod 'UMShare/UI'                     #分享UI
+    pod 'UMLink'
+
+    pod 'UMShare/Social/WeChat'          #集成微信(完整版14.4M)
+    pod 'UMShare/Social/QQ'              #集成QQ/QZone/TIM(完整版7.6M)
+    pod 'UMShare/Social/Sina'            #集成新浪微博(完整版25.3M)
+    pod 'UMShare/Social/ReducedSina'     #集成新浪微博(精简版1M)
+    pod 'UMShare/Social/DingDing'        #集成钉钉
+    pod 'UMShare/Social/WeChatWork'      #企业微信
+    pod 'UMShare/Social/DouYin'          #抖音
+    pod 'UMShare/Social/AlipayShare'     #集成支付宝
+    pod 'UMShare/Social/Email'           #集成邮件
+    pod 'UMShare/Social/SMS'             #集成短信
+    pod 'UMShare/Social/YouDao'          #集成有道云笔记
+    pod 'UMShare/Social/EverNote'        #集成印象笔记
+    pod 'UMShare/Social/Facebook'        #集成Facebook/Messenger
+    pod 'UMShare/Social/Twitter'         #集成Twitter
+    pod 'UMShare/Social/Flickr'          #集成Flickr
+    pod 'UMShare/Social/Kakao'           #集成Kakao
+    pod 'UMShare/Social/Tumblr'          #集成Tumblr
+    pod 'UMShare/Social/Pinterest'       #集成Pinterest
+    pod 'UMShare/Social/Instagram'       #集成Instagram
+    pod 'UMShare/Social/Line'            #集成Line
+    pod 'UMShare/Social/WhatsApp'        #集成WhatsApp
+    pod 'UMShare/Social/GooglePlus'      #集成Google+
+    pod 'UMShare/Social/Pocket'          #集成Pocket
+    pod 'UMShare/Social/DropBox'         #集成DropBox
+    pod 'UMShare/Social/VKontakte'       #集成VKontakte
 end
 
 target 'YXSharedByUmengTest' do

@@ -14,71 +14,153 @@ PODS:
   - AFNetworking/Serialization (4.0.0)
   - AFNetworking/UIKit (4.0.0):
     - AFNetworking/NSURLSession
-  - UMCAnalytics (6.1.0):
-    - UMCCommon
-  - UMCCommon (2.1.4)
-  - UMCPush (3.2.4):
-    - UMCCommon
-  - UMCSecurityPlugins (1.0.6)
-  - UMCShare/Core (6.9.8):
-    - UMCCommon
-  - UMCShare/Social/AlipayShare (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/DingDing (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/Email (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/ReducedQQ (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/ReducedSina (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/ReducedWeChat (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/SMS (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/UI (6.9.8):
-    - UMCCommon
-    - UMCShare/Core
+  - UMCommon (7.3.6):
+    - UMDevice
+  - UMDevice (2.2.1)
+  - UMLink (1.2.0):
+    - UMCommon
+  - UMPush (4.0.2):
+    - UMCommon
+  - UMShare/Core (6.10.4):
+    - UMCommon
+  - UMShare/Social/AlipayShare (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DingDing (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DouYin (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DropBox (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Email (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/EverNote (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Facebook (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Flickr (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/GooglePlus (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Instagram (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Kakao (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Line (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Pinterest (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Pocket (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/QQ (6.10.4):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedQQ
+  - UMShare/Social/ReducedQQ (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedWeChat (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.4):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/Social/SMS (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Tumblr (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Twitter (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/VKontakte (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/WeChat (6.10.4):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedWeChat
+  - UMShare/Social/WeChatWork (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/WhatsApp (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/YouDao (6.10.4):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/UI (6.10.4):
+    - UMCommon
+    - UMShare/Core
 
 DEPENDENCIES:
   - AFNetworking
-  - UMCAnalytics
-  - UMCCommon
-  - UMCPush
-  - UMCSecurityPlugins
-  - UMCShare/Social/AlipayShare
-  - UMCShare/Social/DingDing
-  - UMCShare/Social/Email
-  - UMCShare/Social/ReducedQQ
-  - UMCShare/Social/ReducedSina
-  - UMCShare/Social/ReducedWeChat
-  - UMCShare/Social/SMS
-  - UMCShare/UI
+  - UMCommon
+  - UMDevice
+  - UMLink
+  - UMPush
+  - UMShare/Social/AlipayShare
+  - UMShare/Social/DingDing
+  - UMShare/Social/DouYin
+  - UMShare/Social/DropBox
+  - UMShare/Social/Email
+  - UMShare/Social/EverNote
+  - UMShare/Social/Facebook
+  - UMShare/Social/Flickr
+  - UMShare/Social/GooglePlus
+  - UMShare/Social/Instagram
+  - UMShare/Social/Kakao
+  - UMShare/Social/Line
+  - UMShare/Social/Pinterest
+  - UMShare/Social/Pocket
+  - UMShare/Social/QQ
+  - UMShare/Social/ReducedSina
+  - UMShare/Social/Sina
+  - UMShare/Social/SMS
+  - UMShare/Social/Tumblr
+  - UMShare/Social/Twitter
+  - UMShare/Social/VKontakte
+  - UMShare/Social/WeChat
+  - UMShare/Social/WeChatWork
+  - UMShare/Social/WhatsApp
+  - UMShare/Social/YouDao
+  - UMShare/UI
 
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - UMCAnalytics
-    - UMCCommon
-    - UMCPush
-    - UMCSecurityPlugins
-    - UMCShare
+    - UMCommon
+    - UMDevice
+    - UMLink
+    - UMPush
+    - UMShare
 
 SPEC CHECKSUMS:
   AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
-  UMCAnalytics: 3503f179f7af932b30af9ac161ac11fb48fa72b6
-  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
-  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
-  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
-  UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
+  UMCommon: c61df8457c275afd4f8a2fca10c7446d66220ac0
+  UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
+  UMLink: d5047e2716c2571d120d890af0f7a41d1b5e5224
+  UMPush: c420e1cf2d1c96f1257f390bc626314fb7e6d9e6
+  UMShare: 84edf6d080f524d109271164ba2b07650f69d691
 
-PODFILE CHECKSUM: 7880f5a9cae3ca8b20397733a52de04c5bc72935
+PODFILE CHECKSUM: 051f19380ab4aaee908b7c92c0ea86442777aa48
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.11.2
